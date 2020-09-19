@@ -1,15 +1,24 @@
 {
-  "name": "app-helpers",
+  "name": "helpers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
-  "keywords": ["Helpers", "JavaScript"],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "app-rwd": "^1.0.0",
     "collections-map": "^1.0.4",
     "encapsulation-props": "^1.0.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeHenry/helpers.git"
+  },
+  "keywords": [],
+  "author": "guilhermeHenry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeHenry/helpers/issues"
+  },
+  "homepage": "https://github.com/guilhermeHenry/helpers#readme"
 }

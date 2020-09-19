@@ -1,7 +1,7 @@
 {
-  "name": "helpers",
+  "name": "app-helpers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helpers",
   "main": "index.js",
   "dependencies": {
     "app-rwd": "^1.0.0",
@@ -14,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/guilhermeHenry/helpers.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Helpers"
+  ],
   "author": "guilhermeHenry",
   "license": "ISC",
   "bugs": {

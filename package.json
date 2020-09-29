@@ -1,21 +1,23 @@
 {
-  "name": "app-helpers",
-  "version": "1.0.0",
+  "name": "apps-helpers",
+  "version": "1.0.2",
   "description": "Helpers",
-  "main": "index.js",
+  "main": "./src/index.js",
   "dependencies": {
     "app-rwd": "^1.0.0",
     "collections-map": "^1.0.4",
     "encapsulation-props": "^1.0.1"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "css": "sass --watch src/scss:demo/css --no-source-map",
+    "dev": "npx webpack -d --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guilhermeHenry/helpers.git"
   },
   "keywords": [
-    "Helpers"
+    "Helpers", "JS"
   ],
   "author": "guilhermeHenry",
   "license": "ISC",
